@@ -1,0 +1,32 @@
+<html>
+<head>
+<script language="javascript">
+
+function thousands_separators(num){
+ var result = '', counter = 0;
+    num = (num || 0).toString();
+	for(var j=num.length-1;j>=0;j--)
+	{
+		if(num.charAt(j)=='.')
+		return num;
+	}
+    for (var i = num.length - 1; i >= 0; i--) {
+        counter++;
+        result = num.charAt(i) + result;
+        if (!(counter % 3) && i != 0) { result = ',' + result; }
+    }
+    return result;
+}
+module.exports = thousands_separators;
+
+</script>
+
+</head>
+<body>
+
+
+
+
+</body>
+
+</html>

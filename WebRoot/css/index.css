@@ -1,0 +1,32 @@
+*{ margin:0; padding:0;}
+a{ text-decoration:none;}
+.header{ height:55px; width:100%; background:#000; }
+#logo{ width:150px; height:100%; float:left}
+#welcome{ width:350px; height:55px; line-height:55px; float:left; color:#fff; font-size:20px;}
+.linkIcon{ color:#FFFFFF; font-family:微软雅黑; height:100%; width:75px; float:left; line-height:55px;  text-align: center; font-size:16px;}
+.linkIconx{ color:#FFFFFF; font-family:微软雅黑; height:100%; width:65px; float:left; line-height:55px;  text-align: center; font-size:14px;}
+.linkIcon a{ color:#fff; text-decoration:none }
+.linkIconx a{ color:#666; text-decoration:none }
+.linkIconx a:hover{ color:#fff; text-decoration:none }
+.linkIcon:hover{ background-color:#333333; cursor:pointer; }
+.linkIconx:hover{ background-color:#EC1500; cursor:pointer;  }
+#linkCenter{ width:300px; height:100%; float:right; line-height:0px; }
+#ad{ width:100%;}
+#ad img{ width:100%; }
+.lessonIcon{ width:95%; margin:0 2.5%; }
+.lessonLead{ width:100%; height:55px; border-bottom:1px solid #ccc; position:relative }
+.lessonLead span{ font-size:14px; color:#666; display:block; position:absolute; bottom:20px; left:10px ; }
+.lessonIcon ul{ list-style-type:none; position:absolute; bottom:18px; left:40px }
+.lessonIcon ul li{ list-style-type:none;  display:inline-block; margin:0 20px; font-size:15px}
+.lessonIcon ul li:hover{ color:#FF3300; cursor:pointer; }
+.lessonsBox{ width:100%;  padding:0 10px;}
+.lessonBox{ width:20%; height:230px; padding:2% 2%; float:left; margin-right:10px;border:1px solid #fff;}
+.lessonBox:hover{ border:1px solid #ccc;}
+.lessonBox img{ width:95%; height:140px; margin:0 auto; margin-bottom:10px;}
+.lessonBox p{ font-size:14px; margin-bottom:10px;}
+.lessonBox span{ font-size:13px; color:#666; padding-right:15px;}
+
+#footer{ width:90%; height:130px; margin: 40px auto;  clear:both; }
+.friendly-link{ width:100%; height:50px; border-bottom:1px solid #ccc; text-align:center; line-height:50px; color:#999; font-size:14px; }
+.friendly-link a{ text-decoration:none; padding:0 10px; color:#999; font-size:14px; }
+.footer-copyright{ width:100%; height:80px; text-align:center; line-height:60px; color:#999; font-size:14px; }

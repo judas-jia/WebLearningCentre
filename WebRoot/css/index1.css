@@ -1,0 +1,12 @@
+*{ margin:0; padding:0;}
+a{ text-decoration:none;}
+.header{ height:55px; width:100%; background:#000; }
+#logo{ width:150px; height:100%; float:left}
+.linkIcon{ color:#FFFFFF; font-family:微软雅黑; height:100%; width:75px; float:left; line-height:55px;  text-align: center; font-size:16px;}
+.linkIconx{ color:#FFFFFF; font-family:微软雅黑; height:100%; width:65px; float:left; line-height:55px;  text-align: center; font-size:14px;}
+.linkIcon a{ color:#fff; text-decoration:none }
+.linkIconx a{ color:#666; text-decoration:none }
+.linkIconx a:hover{ color:#fff; text-decoration:none }
+.linkIcon:hover{ background-color:#333333; cursor:pointer; }
+.linkIconx:hover{ background-color:#EC1500; cursor:pointer;  }
+#linkCenter{ width:300px; height:100%; float:right; line-height:0px; }
